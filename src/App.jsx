@@ -28,7 +28,7 @@ export default function App() {
       link: "#",
       icon: (
         <>
-          <i className="bi bi-house"></i> <span className="text-xs">Home</span>
+          <i className="bi bi-house"></i>{" "}<span className="text-xs">Home</span>
         </>
       ),
     },
@@ -56,9 +56,9 @@ export default function App() {
 
   return (
     <>
-      <div className="relative">
+      <nav className="relative">
         <FloatingNav navItems={navItems} />
-      </div>
+      </nav>
       <AuroraBackground className="text-slate-800 dark:text-slate-200">
         <section id="#" className="container">
           <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -71,7 +71,7 @@ export default function App() {
                 technology enthusiast.
               </p>
               <div className="my-4">
-                <h3 className="text-2xl my-2 font-bold tracking-tight leading-none md:text-3xl dark:text-white">
+                <h3 className="text-2xl my-2 mb-4 font-bold tracking-tight leading-none md:text-3xl dark:text-white">
                   About Me!
                 </h3>
                 <p className="my-2 text-gray-500 dark:text-gray-400">
@@ -86,6 +86,14 @@ export default function App() {
                   Skill? Masih banyak hal yang harus dipelajari, entah apa yang
                   disebut atau secara nyata di real life.
                 </p>
+                <div className="my-4 flex gap-4">
+                  <a href="https://instagram.com/graphiert" target="_blank"><i class="bi bi-instagram text-2xl md:text-3xl"></i></a>
+                  <a href="https://x.com/graphiert"><i class="bi bi-twitter-x text-2xl md:text-3xl"></i></a>
+                  <a href="https://github.com/graphiert" target="_blank"><i class="bi bi-github text-2xl md:text-3xl"></i></a>
+                  <a href="https://youtube.com/@graphiert" target="_blank"><i class="bi bi-youtube text-2xl md:text-3xl"></i></a>
+                  <a href="https://reddit.com/u/graphiert" target="_blank"><i class="bi bi-reddit text-2xl md:text-3xl"></i></a>
+                  <span className="mt-auto mb-1 text-slate-500 text-xs">/graphiert</span>
+                </div>
               </div>
             </div>
             <div className="hidden lg:col-span-5 lg:flex w-64 h-64 my-auto mx-auto">

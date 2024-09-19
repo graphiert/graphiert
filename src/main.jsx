@@ -7,8 +7,6 @@ import "bootstrap-icons/font/bootstrap-icons.min.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="font-figtree bg-slate-100">
-      <App />
-    </div>
+    <App />
   </StrictMode>,
 );
