@@ -21,36 +21,52 @@ export default function App() {
       src: "/contact-django.png",
     },
   ];
-
+  
   const navItems = [
     {
-      name: "Home",
-      link: "#",
-      icon: (
-        <>
-          <i className="bi bi-house"></i>{" "}<span className="text-xs">Home</span>
+      name: (
+          <>
+          <i className="bi bi-house text-md"></i>{" "}
+          <span className="text-xs">Home</span>
         </>
       ),
+      icon: (
+        <>
+          <i className="bi bi-house"></i>{" "}
+          <span className="text-xs">Home</span>
+        </>
+      ),
+      link: "#",
     },
     {
-      name: "Projects",
-      link: "#projects",
+      name: (
+        <>
+          <i className="bi bi-card-text text-md"></i>{" "}
+          <span className="text-xs">Projects</span>
+        </>
+      ),
       icon: (
         <>
           <i className="bi bi-card-text"></i>{" "}
           <span className="text-xs">Projects</span>
         </>
       ),
+      link: "#projects",
     },
     {
-      name: "Contact",
-      link: "#contact",
+      name: (
+        <>
+          <i className="bi bi-person-lines-fill text-md"></i>{" "}
+          <span className="text-xs">Contact</span>
+        </>
+      ),
       icon: (
         <>
           <i className="bi bi-person-lines-fill"></i>{" "}
           <span className="text-xs">Contact</span>
         </>
       ),
+      link: "#contact",
     },
   ];
 
@@ -87,12 +103,23 @@ export default function App() {
                   disebut atau secara nyata di real life.
                 </p>
                 <div className="my-4 flex gap-4">
-                  <a href="https://instagram.com/graphiert" target="_blank"><i class="bi bi-instagram text-2xl md:text-3xl"></i></a>
-                  <a href="https://x.com/graphiert"><i class="bi bi-twitter-x text-2xl md:text-3xl"></i></a>
-                  <a href="https://github.com/graphiert" target="_blank"><i class="bi bi-github text-2xl md:text-3xl"></i></a>
-                  <a href="https://youtube.com/@graphiert" target="_blank"><i class="bi bi-youtube text-2xl md:text-3xl"></i></a>
-                  <a href="https://reddit.com/u/graphiert" target="_blank"><i class="bi bi-reddit text-2xl md:text-3xl"></i></a>
-                  <span className="mt-auto mb-1 text-slate-500 text-xs">/graphiert</span>
+                  <a href="https://instagram.com/graphiert" target="_blank">
+                    <i className="bi bi-instagram text-2xl md:text-3xl"></i>
+                  </a>
+                  <a href="https://x.com/graphiert">
+                    <i className="bi bi-twitter-x text-2xl md:text-3xl"></i>
+                  </a>
+                  <a href="https://github.com/graphiert" target="_blank">
+                    <i className="bi bi-github text-2xl md:text-3xl"></i>
+                  </a>
+                  <a href="https://reddit.com/u/graphiert" target="_blank">
+                    <i className="bi bi-reddit text-2xl md:text-3xl"></i>
+                  </a>
+                  <i className="bi bi-discord text-2xl md:text-3xl"></i>
+
+                  <span className="mt-auto mb-1 text-slate-500 text-xs">
+                    /graphiert
+                  </span>
                 </div>
               </div>
             </div>
