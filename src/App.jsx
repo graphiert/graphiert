@@ -106,7 +106,7 @@ export default function App() {
                   <a href="https://instagram.com/graphiert" target="_blank">
                     <i className="bi bi-instagram text-2xl md:text-3xl"></i>
                   </a>
-                  <a href="https://x.com/graphiert">
+                  <a href="https://x.com/graphiert" target="_blank">
                     <i className="bi bi-twitter-x text-2xl md:text-3xl"></i>
                   </a>
                   <a href="https://github.com/graphiert" target="_blank">
