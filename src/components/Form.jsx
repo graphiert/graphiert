@@ -74,7 +74,7 @@ const ContactForm = () => {
           </Alert>
         )}
         <div className="my-6">
-          <label for="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
             Nama
           </label>
           <input
