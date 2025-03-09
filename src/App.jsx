@@ -21,19 +21,18 @@ export default function App() {
       src: "/contact-django.png",
     },
   ];
-  
+
   const navItems = [
     {
       name: (
-          <>
+        <>
           <i className="bi bi-house text-md"></i>{" "}
           <span className="text-xs">Home</span>
         </>
       ),
       icon: (
         <>
-          <i className="bi bi-house"></i>{" "}
-          <span className="text-xs">Home</span>
+          <i className="bi bi-house"></i> <span className="text-xs">Home</span>
         </>
       ),
       link: "#",
@@ -67,6 +66,20 @@ export default function App() {
         </>
       ),
       link: "#contact",
+    },
+    {
+      name: (
+        <>
+          <i className="bi bi-coin text-md"></i>{" "}
+          <span className="text-xs">Donate</span>
+        </>
+      ),
+      icon: (
+        <>
+          <i className="bi bi-coin"></i> <span className="text-xs">Donate</span>
+        </>
+      ),
+      link: "https://tako.id/graphiert",
     },
   ];
 
