@@ -9,16 +9,16 @@ export default function App() {
   const sectionGap = "px-8 md:px-12 lg:px-16 py-3 md:py-6 lg:py-9 mt-16";
   const cards = [
     {
-      title: "Anime Searcher",
-      src: "/anime-searcher.png",
+      title: "Laboratory Report",
+      src: "/lab-report.png",
     },
     {
       title: "Landing Page Online Shop",
       src: "/landing-shop.png",
     },
     {
-      title: "Contact Management in Django",
-      src: "/contact-django.png",
+      title: "Contact Management in Laravel",
+      src: "/contact-laravel.png",
     },
   ];
 

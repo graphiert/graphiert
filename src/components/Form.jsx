@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Alert, Spinner } from "flowbite-react";
+import { Button, Alert } from "flowbite-react";
 
 const ContactForm = () => {
   const [dataForm, setDataForm] = useState({
@@ -121,8 +121,7 @@ const ContactForm = () => {
         </div>
         {success === 2 ? (
           <Button color="blue" disabled>
-            <Spinner className="mr-2" size="4" color="white" />
-            Kirim
+            Mengirim...
           </Button>
         ) : success === 1 ? (
           <Button color="green" disabled>
