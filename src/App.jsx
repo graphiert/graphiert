@@ -80,6 +80,7 @@ export default function App() {
         </>
       ),
       link: "https://tako.id/graphiert",
+      newTab: true,
     },
   ];
 
@@ -159,7 +160,7 @@ export default function App() {
         <blockquote
           className={cn(
             sectionGap,
-            "lg:w-1/2 container text-xl italic font-semibold text-gray-900 dark:text-white",
+            "lg:w-1/2 container text-xl italic font-semibold text-gray-900 dark:text-white"
           )}
         >
           <p>
